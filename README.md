@@ -4,7 +4,8 @@ Java RESTful criada para a Santander Dev Week.
 
 ## Diagrama de Classes
 
-``` classDiagram
+```mermaid
+ classDiagram
     class User {
         +String name
         +Account account
