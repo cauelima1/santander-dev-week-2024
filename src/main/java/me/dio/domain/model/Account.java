@@ -17,14 +17,14 @@ public class Account {
 
     private String agency;
 
-    @Column(nullable = false, precision = 2, scale = 13)
+    @Column(nullable = false, precision = 13, scale = 2)
     private BigDecimal balance;
 
     // 99999999999,99 -> EXEMPLO DE PRECISION 13, SCALE 2
     @Column(precision = 13, scale = 2)
     private BigDecimal limite;
 
-    @Column(name = "additional_limit", precision = 2, scale = 13)
+
     public BigDecimal getLimite() {
         return limite;
     }
